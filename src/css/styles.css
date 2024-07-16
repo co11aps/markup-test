@@ -28,7 +28,7 @@ body {
     display: flex;
     place-items: center;
     min-width: 320px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 h1 {
@@ -44,6 +44,7 @@ h1 {
     background-color: bisque;
     margin: 0 auto;
     min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
 }
 
 .header {
