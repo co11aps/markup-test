@@ -23,5 +23,5 @@ import { setupCounter } from "./counter.js";
 
 // setupCounter(document.querySelector("#counter"));
 
-const vh = window.innerHeight / 100;
-document.documentElement.style.setProperty("--vh", `${vh}px`);
+// const vh = window.innerHeight / 100;
+// document.documentElement.style.setProperty("--vh", `${vh}px`);
