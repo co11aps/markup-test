@@ -76,35 +76,11 @@ h1 {
     line-height: 1.1;
 }
 
-/* .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: bisque;
-    margin: 0 auto;
-    min-height: 100vh;
-    max-width: 480px;
-}
-
-.header {
-    background-color: #646cff;
-}
-
-.main-content {
-    background-color: aqua;
-    min-height: 400px;
-}
-
-.footer {
-    background-color: blueviolet;
-    padding-bottom: 70px;
-} */
-
 .mainContainer {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     line-height: 1.0;
-    height: 95vh;
+    min-height: 95vh;
     margin: 0 auto;
     padding: 12px;
     max-width: 430px;
@@ -155,26 +131,6 @@ background-position: center;
 background-size: cover;
 } */
 
-/*
-@media screen and (min-width: 768px) {
-    .mainContainer {
-        min-height: 1000px;
-        }
-        
-        .hero {
-            min-width: 1000px
-            }
-            
-            
-            .nav {
-                margin-top: 24px;
-                }
-                
-                .mainContent {
-                    height: 150px;
-                    margin-top: 600px;
-                    }
-                    } */
 
 /* ========== Navigation ============== */
 
