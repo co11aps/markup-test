@@ -39,7 +39,7 @@ h1 {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    justify-content: center;
+    /* justify-content: space-between; */
     background-color: bisque;
     margin: 0 auto;
     min-height: 85vh;
@@ -52,6 +52,7 @@ h1 {
 
 .main-content {
     background-color: aqua;
+    flex-grow: 1;
 }
 
 .footer {
