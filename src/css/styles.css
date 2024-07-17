@@ -67,7 +67,7 @@ body {
     color: blanchedalmond;
     background-color: rgba(12, 33, 36, 1);
     line-height: 1.0;
-    height: 100vh;
+    min-height: 100vh;
     min-width: 368px;
 }
 
@@ -212,7 +212,16 @@ background-size: cover;
     padding: 8px 16px;
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+    .nav {
+        min-width: 760px;
+    }
+
+    .nav-list {
+        max-width: 460px;
+    }
+}
 
 /* ========== Main content ============== */
 .mainContent {
