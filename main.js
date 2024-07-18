@@ -20,3 +20,10 @@ import "./src/css/styles.css";
 
 // setupCounter(document.querySelector("#counter"));
 // define a function that sets min-height of my-element to window.innerHeight:
+
+const documentHeight = () => {
+  const doc = document.documentElement;
+  doc.style.setProperty("--doc-height", `${window.innerHeight}px`);
+};
+window.addEventListener("resize", documentHeight);
+documentHeight();

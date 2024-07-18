@@ -13,6 +13,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+
+    --doc-height: 100%;
+
+    --background-height: 100vh;
+    --viewport-height: 100vh;
 }
 
 /* Reset styles */
@@ -69,6 +74,12 @@ body {
     line-height: 1.0;
     min-height: 100dvh;
     min-width: 368px;
+
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    /* fallback for Js load */
+    height: var(--doc-height);
 }
 
 h1 {
